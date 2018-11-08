@@ -1,0 +1,12 @@
+body {
+  max-width: 960px;
+}
+
+body.p {
+  font-family: "Comic Sans MS";
+}
+
+.panel-default {
+  float: right;
+  width: 15%;
+}
