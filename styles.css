@@ -5,11 +5,6 @@ body {
   margin-left: auto;
 }
 
-body.p {
-  font-family: "Comic Sans MS";
-  margin: 10px;
-}
-
 img {
   float: left;
   padding: 5px;

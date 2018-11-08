@@ -4,14 +4,10 @@
 <head>
     <meta charset="utf-8" />
     <title></title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/icon.min.css" />
-    <link rel="stylesheet" type="text/css" href="/Computing/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto&effect=anaglyph" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
@@ -26,34 +22,19 @@
             </p>
             <p>must it involve the literal use of computers hardware and software?</p>
             <p>here in durham university, there are several aims for computational thinking as a module.</p>
-            <div class="ui list">
-                <div class="item">
-                    <i class="secret user icon"></i>
-                    <div class="content">
-                        <div class="description">
-                            To introduce students to fundamental concepts from Computer Science and give students an appreciation of the breadth of Computer
-                            Science and how different topics relate to one another.
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <i class="bug icon"></i>
-                    <div class="content">
-                        <div class="description">
-                            To introduce students to the application of computational thinking in a range of settings across Computer Science
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <i class="universal access icon"></i>
-                    <div class="content">
-                        <div class="description">
-                            To give an awareness of the importance of computation and computational thinking in the modern world and the impact it has
-                            on technology advances and areas not immediately associated with Computer Science.
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <ul>
+                <li>
+                    To introduce students to fundamental concepts from Computer Science and give students an appreciation of the breadth of Computer
+                    Science and how different topics relate to one another.
+                </li>
+                <li>
+                    To introduce students to the application of computational thinking in a range of settings across Computer Science
+                </li>
+                <li>
+                    To give an awareness of the importance of computation and computational thinking in the modern world and the impact it has
+                    on technology advances and areas not immediately associated with Computer Science.
+                </li>
+            </ul>
             <p>the ability to reason about the solution of general problems and apply different problem-solving techniques is
                 one of the great contributions to society.</p>
             <p>
@@ -63,10 +44,9 @@
             </p>
             <p>
                 as we travel further with the digital age, we see computational thinking far beyond computer science and engineering.
-                <img class="ui medium right floated image" src="http://cyland.org/lab/wp-content/uploads/2016/08/2016_08_29_blog_wolframtones_1.png"> demystified, we see it in areas of active study in arts and humanities, and yes, how could we forget about
+                <img width="30%" src="http://cyland.org/lab/wp-content/uploads/2016/08/2016_08_29_blog_wolframtones_1.png"> demystified, we see it in areas of active study in arts and humanities, and yes, how could we forget about
                 music.
             </p>
-
             <p>
                 computational thinking in daily life: pipeling, hashing, sorting.
             </p>
@@ -92,28 +72,23 @@
                 </p>
             </div>
         </div>
+        <div class="col-md-12">
+            <hr/>
+            <p>hello, i am yuenhy. you can find my work on
+                <a href="github.com/yuenhy">github</a> or connect with me on
+                <a href="https://www.linkedin.com/in/yuenhy/">linkedin</a>.</p>
+            <p>psst...</p>
+            <p>fund a cup of noodles?</p>
+        </div>
     </div>
-
-    <div class="ui main text container">
-        <p class="ui header medium">hello, i am yuenhy. you can find my work on
-            <a href="github.com/yuenhy">github</a> or connect with me on
-            <a href="https://www.linkedin.com/in/yuenhy/">linkedin</a>. </p>
-        <p>fund a cup of noodles?</p>
-        <div class="ui heart rating" data-max-rating="3"></div>
-    </div>
-
-    <script>
-        $('.ui.rating').rating({
-            initialRating: 2,
-            maxRating: 3
-        });
-        $("#nav").load("nav.html");
-    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
-
+    <script>
+        $("#nav").load("nav.html");
+    </script>
 </body>
 
 </html>
