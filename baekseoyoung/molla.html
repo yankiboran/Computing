@@ -1,28 +1,72 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title>hungry</title>
-		<link href="molla.css" rel="stylesheet" type="text/css">
-	</head>
-	<body>
-		<h1>which meal</h1>
+
+<head>
+	<meta charset="utf-8">
+	<title>hungry</title>
+	<link href="molla.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+</head>
+
+<body>
+	<div id="nav"></div>
+	<h1>which meal</h1>
+	<ul>
+		<h2>
+			<li>breakfast</li>
+		</h2>
 		<ul>
-		<h2><li>breakfast</li></h2>
-			<ul>
-			<li><a href="breakfast/bmeat.html"><u>meat</u></a></li>
-			<li><a href="breakfast/bvegi.html"><u>vegitarian</u></a></li>
-			</ul>
-		<h2><li>lunch</li></h2>
-			<ul>
-			<li><a href=""><u>meat</u></a></li>
-			<li><a href=""><u>vegitarian</u></a></li>
-			</ul>
-		<h2><li>dinner</li></h2>
-			<ul>
-			<li><a href=""><u>meat</u></a></li>
-			<li><a href=""><u>vegitarian</u></a></li>
-			</ul>
+			<li>
+				<a href="hungry/bmeat.html">
+					<u>meat</u>
+				</a>
+			</li>
+			<li>
+				<a href="hungry/bvegi.html">
+					<u>vegitarian</u>
+				</a>
+			</li>
 		</ul>
-	</body>
+		<h2>
+			<li>lunch</li>
+		</h2>
+		<ul>
+			<li>
+				<a href="">
+					<u>meat</u>
+				</a>
+			</li>
+			<li>
+				<a href="">
+					<u>vegitarian</u>
+				</a>
+			</li>
+		</ul>
+		<h2>
+			<li>dinner</li>
+		</h2>
+		<ul>
+			<li>
+				<a href="">
+					<u>meat</u>
+				</a>
+			</li>
+			<li>
+				<a href="">
+					<u>vegitarian</u>
+				</a>
+			</li>
+		</ul>
+	</ul>
+	<script>
+		$("#nav").load("../nav.html");
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
