@@ -1,5 +1,8 @@
 body {
   max-width: 960px;
+  padding: 2%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 body.p {
@@ -14,7 +17,7 @@ img {
   margin: 5px;
 }
 
-.panel-default {
-  float: right;
-  width: 15%;
+.special{
+  color:rgba(0,0,0,.8);
+  text-decoration: none !important
 }
