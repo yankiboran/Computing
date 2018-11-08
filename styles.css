@@ -4,6 +4,14 @@ body {
 
 body.p {
   font-family: "Comic Sans MS";
+  margin: 10px;
+}
+
+img {
+  float: left;
+  padding: 5px;
+  border: 1px solid grey;
+  margin: 5px;
 }
 
 .panel-default {
